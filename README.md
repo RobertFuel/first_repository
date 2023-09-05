@@ -51,3 +51,10 @@ git init
 ```
 
 Nota: Git puede pedirte tu configuración (nombre y email) si aún no lo has hecho.
+
+## Primer commit y nueva rama de desarrollo
+
+```bash
+git add .
+git commit -m "Primer commit"
+```

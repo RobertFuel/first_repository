@@ -58,3 +58,10 @@ Nota: Git puede pedirte tu configuración (nombre y email) si aún no lo has hec
 git add .
 git commit -m "Primer commit"
 ```
+
+## Comandos para Git
+
+Para mostrar las ramas:
+```bash
+git branch
+```

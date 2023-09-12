@@ -1,6 +1,6 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 
 
 def index(request):
-    return render(request, "prueba/index.html")
+    contexto = {"nombre": "Mi Primera App"}
+    return render(request, "prueba/index.html", contexto)

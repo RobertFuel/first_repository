@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse("Esta la app Prueba")
+    return render(request, "prueba/index.html")
